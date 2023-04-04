@@ -58,10 +58,11 @@ pretrained_models/BERT-Pair/
 Then run the feature extraction scripts.
 ```
 cd feature_extractor/
+#sh取代下面
 chmod +x *.sh
-./train_extracor.sh
-./dev_extractor.sh
-./test_extractor.sh
+./train_extracor.sh #IndexError: list index out of range
+./dev_extractor.sh  #FileNotFoundError: [Errno 2] No such file or directory: '../data/gear/gear-dev-set-0_001.tsv'
+./test_extractor.sh #FileNotFoundError: [Errno 2] No such file or directory: '../data/gear/gear-test-set-0_001.tsv'
 cd ..
 ```
 
