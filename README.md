@@ -38,6 +38,7 @@ cd scripts/
 python retrieval_to_bert_input.py
 
 # Build the datasets for gear
+#路徑有問題
 python build_gear_input_set.py
 
 cd ..
