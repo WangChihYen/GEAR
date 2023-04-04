@@ -34,6 +34,7 @@ wget -O data/fever/fever.db https://s3-eu-west-1.amazonaws.com/fever.public/wiki
 
 # Extract the evidence from database
 cd scripts/
+#drqa一直裝不好
 python retrieval_to_bert_input.py
 
 # Build the datasets for gear
