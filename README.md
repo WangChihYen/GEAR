@@ -73,6 +73,7 @@ cd ..
 ```
 cd gear
 CUDA_VISIBLE_DEVICES=0 python train.py
+#前面沒有設好 所以路徑有問題
 cd ..
 ```
 
@@ -80,6 +81,7 @@ cd ..
 ```
 cd gear
 CUDA_VISIBLE_DEVICES=0 python test.py
+#前面沒有設好 所以路徑有問題
 cd ..
 ```
 
@@ -87,6 +89,7 @@ cd ..
 ```
 cd gear
 python results_scorer.py
+#前面沒有設好 所以路徑有問題
 cd ..
 ```
 
